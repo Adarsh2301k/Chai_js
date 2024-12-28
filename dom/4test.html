@@ -21,23 +21,23 @@
     }
     addlang("python")
 
-    function addoptiLang(langName){
+   function addoptiLang(langName){
         const li=document.createElement('li');
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
     }
     addoptiLang("Optimised Approach")
 
-    // edit
+//     // edit
 
     const seclang=document.querySelector('li:nth-child(2)')
-    // seclang.innerHTML="Mojo"
+     seclang.innerHTML="Mojo"
     const newli=document.createElement('li')
     newli.textContent="Mojo"
     seclang.replaceWith(newli)
 
 
-    // remove
+//     // remove
     const lastLang=document.querySelector('li:last-child')
     lastLang.remove();
 

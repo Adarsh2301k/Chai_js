@@ -13,17 +13,19 @@
 
 
 
-// const mynums=[1,2,3,4]
-// const mytotal=mynums.reduce(function(acc,currval){
-//     console.log(`acc :${acc} ans currval :${currval}`);
-    
-//     return acc+currval
-// },0)
-// console.log(mytotal);
-
 const mynums=[1,2,3,4]
-const total=mynums.reduce((acc,currval)=>acc+currval,0)
-console.log(total);
+const mytotal=mynums.reduce(function(acc,currval){
+    console.log(`acc :${acc} ans currval :${currval}`);
+    
+    return acc+currval
+},0)
+console.log(mytotal);
+
+
+
+// const mynums=[1,2,3,4]
+// const total=mynums.reduce((acc,currval)=>acc+currval,0)
+// console.log(total);
 
 
 

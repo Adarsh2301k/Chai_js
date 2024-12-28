@@ -1,11 +1,11 @@
-// const coding=['js','ruby','java']
+const coding=['js','ruby','java']
 
-// const values=coding.forEach((item)=>{
-//     console.log(item);
-//     //  for each koi bhi value retrun nhi krta
+const values=coding.forEach((item)=>{
+    console.log(item);
+    //  for each koi bhi value retrun nhi krta
     
-// })
-// console.log(values);
+})
+console.log(values);
 
 // soln
 

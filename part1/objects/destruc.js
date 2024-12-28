@@ -13,6 +13,3 @@ console.log(Ins)
 // const navbar=({company})=>{
 // }
 // navbar(company="hitesh")
-
-
- 

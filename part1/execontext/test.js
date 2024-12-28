@@ -2,8 +2,8 @@
 //  global ,function ,eval
 
 
-// const bal=1000
-// if(bal>200)console.log("test yes"),console.log("test2");
+const bal=1000
+if(bal>200)console.log("test yes"),console.log("test2");
 
     
 const user=true
