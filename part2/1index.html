@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Events</title>
+ </head>
+ <body style="background-color: #414141;">
+    <h2 style="color: white;">Amazing images</h2>
+    <ul id="images">
+        <li><img width="200px" id="photoshop"src="jpeg-home.jpg" alt=""></li>
+        <li><img width="200px" id="japan"src="jpeg-home.jpg" alt=""></li>
+        <li><img width="200px" id="river"src="jpeg-home.jpg" alt=""></li>
+        <li><img width="200px"  id="owl"src="jpeg-home.jpg" onclick="alert('owl')"alt=""></li>
+        <li><a href="https://google.com" id="google">Google</a></li>
+    </ul>
+    
+ </body>
+ <script>
+    document.getElementById('river').onclick=function(){
+        alert("river")
+    }
+    document.getElementById('owl').addEventListener('click',function(){
+        alert('clicked again')
+    },false)
+    document.querySelector('#images').addEventListener
+    ('click',function(e){
+        console.log(e.target.parentNode)
+        let removeIt=e.target.parentNode;
+        removeIt.remove()
+
+    },false)
+    
+ </script>
+ </html>
